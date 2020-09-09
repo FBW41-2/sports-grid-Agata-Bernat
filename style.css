@@ -1,3 +1,18 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 img {
     width: 100%;
+}
+/*first part of excersise*/
+.container {
+display: grid;
+/*grid-template-columns: 1fr 1fr 1fr;*/
+
+/*second part of excersise*/
+grid-template-columns: minmax(100px, 350px) 1fr minmax(100px, 350px);
+grid-template-rows: 1fr 1fr 1fr;
+gap: 10px;
 }
